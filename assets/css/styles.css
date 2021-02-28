@@ -41,8 +41,8 @@
 } 
 
 body {
-   backround-image: url('i.imgur.com/Q3fp9ze.jpg');
-   backround: #000000;
+   background-image: url('i.imgur.com/Q3fp9ze.jpg');
+   background: #000000;
 } 
 
 main {
@@ -76,9 +76,9 @@ p {
 #pfp {
   width: 128px;
   height: 128px;
-  border-radius: 128px%;
+  border-radius: 128px;
   border: 2px solid var(--darker);
-  backround: url('/assets/images/avatar.gif');
+  background: url('/assets/images/avatar.gif');
 }  
 
 #socials {
