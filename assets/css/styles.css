@@ -1,4 +1,4 @@
-/* (c) SynergyBest | https://synergybest.dev */
+/* (c) SynergyBest | synergybest.dev */
 
 @font-face {
   font-family: 'Circular';
@@ -40,66 +40,85 @@
   --darker: #f8f8ff;
 } 
 
-body {
-   background-image: url(https://i.imgur.com/Q3fp9ze.jpg);
-} 
+html, body {
+    background: #000000;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
 
 main {
-  font-family: 'Circular';
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  width: 100%;
+    font-family: circular;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}
+
+#pic {
+    width: 160px;
+    height: 160px;
+    background: url(../images/avatar.jpg);
+    background-position: center;
+    border-radius: 160px;
+    border: 2px solid var(--accent);
+    margin: 0 auto;
+}
+
+h2 {
+    margin: 0;
+    margin-right: -15px;
+    text-transform: lowercase;
+    letter-spacing: 15px;
+    font-size: 32px;
+    color: var(--accent);
+    margin-top: 40px;
 }
 
 h1 {
-  margin: 0;
-  margin-right: -15px;
-  letter-spacing: 5px;
-  font-size: 46px;
-  color: var(--accent);
-  margin-bottom: 40px;
+    margin: 0;
+    margin-right: -15px;
+    letter-spacing: 3px;
+    font-size: 46px;
+    color: var(--accent);
+    margin-bottom: 40px;
 }
-
-p {
-  margin: 0;
-  margin-right: -15px;
-  letter-spacing: 5px;
-  font-size: 15px;
-  color: var(--accent);
-  margin-bottom: 40px;
-}
-
-#pfp {
-  width: 128px;
-  height: 128px;
-  border-radius: 128px;
-  border: 2px solid var(--darker);
-  background: url('/assets/images/avatar.gif');
-}  
 
 #socials {
-  margin: 0 auto;
+    margin: 0 auto;
 }
 
 #socials a {
-  font-size: 28px;
-  color: var(--darker);
-  text-decoration: none;
-  margin: 5px 12px;
-  display: inline-block;
-  vertical-align: top;
-  transition: 0.2s all ease-in-out;
+    font-size: 28px;
+    color: var(--darker);
+    text-decoration: none;
+    margin: 5px 12px;
+    display: inline-block;
+    vertical-align: top;
+    transition: 0.2s all ease-in-out;
 }
 
 #socials a:hover {
-  color: var(--accent);
-  transform: scale(1.2);
+    color: var(--accent);
+    transform: scale(1.2);
 }
-.tippy-tooltip {
-  font-family: 'Circular';
-  color: var(--accent);
-  padding: 8px 10px 6px 10px;
+
+.tippy-box[data-theme~='font'] {
+   background-color: #000000;
+   font-weight: 600;
+   font-family: 'Circular';
+}
+
+canvas {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    pointer-events: none;
 }
