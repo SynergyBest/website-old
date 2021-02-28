@@ -41,7 +41,8 @@
 } 
 
 body {
-   backround: url('i.imgur.com/Q3fp9ze.jpg');
+   backround-image: url('i.imgur.com/Q3fp9ze.jpg');
+   backround: #000000;
 } 
 
 main {
