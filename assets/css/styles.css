@@ -63,6 +63,15 @@ h1 {
   margin-bottom: 40px;
 }
 
+p {
+  margin: 0;
+  margin-right: -15px;
+  letter-spacing: 5px;
+  font-size: 15px;
+  color: var(--accent);
+  margin-bottom: 40px;
+}
+
 #pfp {
   width: 128px;
   height: 128px;
