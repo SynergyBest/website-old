@@ -2,35 +2,35 @@
 
 @font-face {
   font-family: 'Circular';
-  src: url('../fonts/Circular-Std-Book.woff2');
+  src: url('/assets/fonts/Circular-Std-Book.woff2');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Circular';
-  src: url('../fonts/Circular-Std-Medium.woff2');
+  src: url('/assets/fonts/Circular-Std-Medium.woff2');
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Circular';
-  src: url('../fonts/Circular-Std-Bold.woff2');
+  src: url('/assets/fonts/Circular-Std-Bold.woff2');
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Circular';
-  src: url('../fonts/Circular-Std-Bold-Italic.woff2');
+  src: url('/assets/fonts/Circular-Std-Bold-Italic.woff2');
   font-weight: 600;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Circular';
-  src: url('../fonts/Circular-Std-Black.woff2');
+  src: url('/assets/fonts/Circular-Std-Black.woff2');
   font-weight: 700;
   font-style: normal;
 }
