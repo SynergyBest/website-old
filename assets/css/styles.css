@@ -1,42 +1,43 @@
 /* (c) SynergyBest | https://synergybest.dev */
 
 @font-face {
-    font-family: 'Circular';
-    src: url('/fonts/Circular-Std-Book.woff2');
-    font-weight: 400;
-    font-style: normal;
+  font-family: 'Circular';
+  src: url('/fonts/Circular-Std-Book.woff2');
+  font-weight: 400;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Circular';
-    src: url('/fonts/Circular-Std-Medium.woff2');
-    font-weight: 500;
-    font-style: normal;
+  font-family: 'Circular';
+  src: url('/fonts/Circular-Std-Medium.woff2');
+  font-weight: 500;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Circular';
-    src: url('/fonts/Circular-Std-Bold.woff2');
-    font-weight: 600;
-    font-style: normal;
+  font-family: 'Circular';
+  src: url('/fonts/Circular-Std-Bold.woff2');
+  font-weight: 600;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Circular';
-    src: url('/fonts/Circular-Std-Bold-Italic.woff2');
-    font-weight: 600;
-    font-style: italic;
+  font-family: 'Circular';
+  src: url('/fonts/Circular-Std-Bold-Italic.woff2');
+  font-weight: 600;
+  font-style: italic;
 }
 
 @font-face {
-    font-family: 'Circular';
-    src: url('/fonts/Circular-Std-Black.woff2');
-    font-weight: 700;
-    font-style: normal;
+  font-family: 'Circular';
+  src: url('/fonts/Circular-Std-Black.woff2');
+  font-weight: 700;
+  font-style: normal;
 }
 
 :root {
-  --accent:  #f8f8ff;
+  --accent: #ffffff;
+  --darker: #f8f8ff;
 } 
 
 body {
@@ -44,15 +45,63 @@ body {
 } 
 
 main {
-    font-family: 'Circular';
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    width: 100%;
+  font-family: 'Circular';
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+}
+
+h1 {
+  margin: 0;
+  margin-right: -15px;
+  letter-spacing: 5px;
+  font-size: 46px;
+  color: var(--accent);
+  margin-bottom: 40px;
 }
 
 #pfp {
-  
+  width: 128px;
+  height: 128px;
+  border-radius: 128px%;
+  border: 2px solid var(--darker);
+  backround: url('/assets/images/avatar.gif');
 }  
+
+#socials {
+  margin: 0 auto;
+}
+
+#socials a {
+  font-size: 28px;
+  color: var(--darker);
+  text-decoration: none;
+  margin: 5px 12px;
+  display: inline-block;
+  vertical-align: top;
+  transition: 0.2s all ease-in-out;
+}
+
+#socials a:hover {
+  color: var(--accent);
+  transform: scale(1.2);
+}
+
+#bottomLink {
+ margin: 0;
+ margin-top: 10px;
+ color: var(--accent);
+ text-decoration: none;
+}
+
+#bottomLink a a:visited {
+  color: var(--accent)
+}
+.tippy-tooltip {
+  font-family: 'Circular';
+  color: var(--accent);
+  padding: 8px 10px 6px 10px;
+}
