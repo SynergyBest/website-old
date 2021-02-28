@@ -42,7 +42,6 @@
 
 body {
    background-image: url('i.imgur.com/Q3fp9ze.jpg');
-   background: #000000;
 } 
 
 main {
@@ -98,17 +97,6 @@ p {
 #socials a:hover {
   color: var(--accent);
   transform: scale(1.2);
-}
-
-#bottomLink {
- margin: 0;
- margin-top: 10px;
- color: var(--accent);
- text-decoration: none;
-}
-
-#bottomLink a a:visited {
-  color: var(--accent)
 }
 .tippy-tooltip {
   font-family: 'Circular';
