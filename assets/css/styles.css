@@ -96,8 +96,6 @@ h2 {
     border-radius: 160px;
     border: 2px solid var(--accent);
     margin: 0 auto;
-    animation: zoomInDown;
-    animation-duration: 1.5s; 
 }
 
 #socials {
