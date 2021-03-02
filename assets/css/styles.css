@@ -163,3 +163,7 @@ canvas {
   animation: bounceInUp;
   animation-duration: 2.25s;  
 }
+
+#mail {
+ animation: fadeInUp; 
+}
