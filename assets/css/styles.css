@@ -124,20 +124,20 @@ canvas {
 
 #github {
   animation: bounceInUp;
-  animation-duration: 0.5s;  
+  animation-duration: 1s;  
 }
 
 #replit {
-  animation: bounceInDown;
-  animation-duration: 1s;
+  animation: bounceInUp;
+  animation-duration: 1.5s;
  }
 
 #codepen {
   animation: bounceInUp;
-  animation-duration: 1.5s;
+  animation-duration: 1.75s;
 }
 
 #discord {
-  animation: bounceInDown;
-  animation-duration: 2s;  
+  animation: bounceInUp;
+  animation-duration: 2.25s;  
 }
