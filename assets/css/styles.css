@@ -165,5 +165,6 @@ canvas {
 }
 
 #mail {
- animation: fadeInUp; 
+ animation: fadeInUp;
+ animation-duration: 4s;
 }
