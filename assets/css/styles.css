@@ -96,7 +96,7 @@ h2 {
     border-radius: 160px;
     border: 2px solid var(--accent);
     margin: 0 auto;
-    animation: rubberBand;
+    animation: fadeIn;
     animation-duration: 2s; 
 }
 
