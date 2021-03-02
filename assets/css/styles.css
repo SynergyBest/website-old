@@ -76,7 +76,6 @@ h1 {
     letter-spacing: 3px;
     font-size: 46px;
     color: var(--accent);
-    margin-bottom: 40px;
 }
 
 h2 {
@@ -86,7 +85,8 @@ h2 {
     letter-spacing: 3px;
     font-size: 32px;
     color: var(--accent);
-    margin-top: 20px;
+    margin-top: 5px;
+    margin-bottom:40px
 }
 
 #socials {
