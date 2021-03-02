@@ -4,3 +4,6 @@ tippy('[data-tippy-content]', {
   placement: 'bottom',
   arrow: false,
 });
+function back() {
+  window.history.back();
+};
