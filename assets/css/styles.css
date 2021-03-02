@@ -121,3 +121,23 @@ canvas {
     height: 200px;
     pointer-events: none;
 }
+
+#github {
+  animation: bounceInUp;
+  animation-duration: 0.5s;  
+}
+
+#replit {
+  animation: bounceInDown;
+  animation-duration: 1s;
+ }
+
+#codepen {
+  animation: bounceInUp;
+  animation-duration: 1.5s;
+}
+
+#discord {
+  animation: bounceInDown;
+  animation-duration: 2s;  
+}
