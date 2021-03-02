@@ -1,5 +1,7 @@
 /* (c) SynergyBest | synergybest.dev */
 
+/* Font faces */
+
 @font-face {
   font-family: 'Circular';
   src: url('/assets/fonts/Circular-Std-Book.woff2');
@@ -35,10 +37,14 @@
   font-style: normal;
 }
 
+/* CSS variables */
+
 :root {
   --accent: #ffffff;
   --darker: #f8f8ff;
 } 
+
+/* Main configuration */
 
 html, body {
     background: #000000;
@@ -60,15 +66,7 @@ main {
     width: 100%;
 }
 
-#pic {
-    width: 160px;
-    height: 160px;
-    background: url(../images/avatar.jpg);
-    background-position: center;
-    border-radius: 160px;
-    border: 2px solid var(--accent);
-    margin: 0 auto;
-}
+/* Header styles */
 
 h1 {
     margin: 0;
@@ -86,6 +84,20 @@ h2 {
     letter-spacing: 3px;
     font-size: 32px;
     color: var(--accent);
+}
+
+/* Positions and items */
+
+#pic {
+    width: 160px;
+    height: 160px;
+    background: url(../images/avatar.jpg);
+    background-position: center;
+    border-radius: 160px;
+    border: 2px solid var(--accent);
+    margin: 0 auto;
+    animation: rubberBand;
+    animation-duration: 2s; 
 }
 
 #socials {
@@ -108,11 +120,7 @@ h2 {
     transform: scale(1.2);
 }
 
-.tippy-box[data-theme~='font'] {
-   background-color: #000000;
-   font-weight: 600;
-   font-family: 'Circular';
-}
+/* Can't remember */
 
 canvas {
     position: fixed;
@@ -121,6 +129,21 @@ canvas {
     width: 100%;
     height: 200px;
     pointer-events: none;
+}
+
+/* Tippy config */
+
+.tippy-box[data-theme~='font'] {
+   background-color: #000000;
+   font-weight: 600;
+   font-family: 'Circular';
+}
+
+/* Animations */
+
+#name {
+  animation: lightSpeedInLeft;
+  animation-duration: 1.5s;
 }
 
 #github {
