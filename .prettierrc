@@ -1,0 +1,26 @@
+{
+  "overrides": [
+    {
+      "files": ["*.js", "*.min.js],
+      "options": {
+        "semi": true,
+        "singleQuote": true,
+        "tabWidth": 3
+      }
+    },
+    {
+      "files": ["*.json", ".prettierrc"],
+      "options": {
+        "tabwWidth": 3,
+        "parser": "json"
+      }
+    },
+    {
+      "files": ["*.css", "*.min.css"],
+      "options": {
+        "tabWidth": 3,
+        "singleQuote": true
+      }
+    }
+  ]
+}
