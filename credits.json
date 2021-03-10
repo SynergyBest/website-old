@@ -1,1 +1,94 @@
+{
+  "javascript": [
+    {
+      "title": "popper.js",
+      "who": "Federico Zivolo",
+      "source": "github.com/popperjs/popper-core",
+      "license": "MIT",
+      "website": "popper.js.org"
+    },
+    
+    {
+      "title": "tippy.js",
+      "who": "atomiks",
+      "source": "github.com/atomiks/tippyjs",
+      "license": "MIT",
+      "website": "atomiks.github.io/tippyjs/"
+    },
+    
+    {
+      "title": "fontawesome.js",
+      "who": "Fortawesome",
+      "source": "github.com/FortAwesome/Font-Awesome",
+      "license": "MIT",
+      "website": "fontawesome.com"
+    },
+  ],
+  
+  "css": [
+    {
+      "title": "animate.css",
+      "who": "Daniel Eden",
+      "source": "github.com/animate-css/animate.css",
+      "license": "MIT",
+      "website": "animate.style"
+    },
+    
+    {
+      "title": "normalize.css",
+      "who": "Nicolas Gallagher & Jonathan Neal",
+      "source" "github.com/necolas/normalize.css",
+      "license": "MIT",
+      "website": "necolas.github.io/normalize.css/"
+    },
+    
+    {
+      "title": "fontawesome.css",
+      "who": "Fortawesome",
+      "source": "github.com/FortAwesome/Font-Awesome",
+      "license": "MIT",
+      "website": "fontawesome.com"
+    },
+    
+    {
+      "title": "styles.css",
+      "who": "Theo Robinson (me)",
+      "source": "github.com/SynergyBest/synergybest.dev/blob/main/assets/css/styles.css",
+      "license": "MIT",
+      "website": "synergybest.dev"
+    }
+  ],
+  
+  "webfonts": [
+    {
+      "title": "*",
+      "who": "Fortawesome",
+      "source": "github.com/FortAwesome/Font-Awesome/tree/master/webfonts",
+      "license": "SIL OFL 1.1",
+      "website": "fontawesome.com
+    }
+  ],
+  
+  "icons": [
+    {
+      "title": "*",
+      "who": "Fortawesome",
+      "source": "github.com/FortAwesome/Font-Awesome/tree/master/svgs",
+      "license": "CC BY 4.0",
+      "website": "fontawesome.com"
+    }
+  ],
+  
+  "html": [
+    {
+      "title": "*",
+      "who": "Theo Robinson (me)",
+      "source": "github.com/synergybest/synergybest.dev",
+      "license": "MIT",
+      "website": "synergybest.dev"
+    }
+  ]
+}
+  
 
+    
