@@ -1,7 +1,10 @@
 {
   "overrides": [
     {
-      "files": ["*.js", "*.min.js],
+      "files": [
+        "*.js",
+        "*.min.js"
+      ],
       "options": {
         "semi": true,
         "singleQuote": true,
@@ -9,14 +12,20 @@
       }
     },
     {
-      "files": ["*.json", ".prettierrc"],
+      "files": [
+        "*.json",
+        ".prettierrc"
+      ],
       "options": {
         "tabwWidth": 3,
         "parser": "json"
       }
     },
     {
-      "files": ["*.css", "*.min.css"],
+      "files": [
+        "*.css",
+        "*.min.css"
+      ],
       "options": {
         "tabWidth": 3,
         "singleQuote": true
