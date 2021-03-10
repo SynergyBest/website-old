@@ -7,7 +7,6 @@
       "license": "MIT",
       "website": "popper.js.org"
     },
-    
     {
       "title": "tippy.js",
       "who": "atomiks",
@@ -15,16 +14,14 @@
       "license": "MIT",
       "website": "atomiks.github.io/tippyjs/"
     },
-    
     {
       "title": "fontawesome.js",
       "who": "Fortawesome",
       "source": "github.com/FortAwesome/Font-Awesome",
       "license": "MIT",
       "website": "fontawesome.com"
-    },
+    }
   ],
-  
   "css": [
     {
       "title": "animate.css",
@@ -33,15 +30,13 @@
       "license": "MIT",
       "website": "animate.style"
     },
-    
     {
       "title": "normalize.css",
       "who": "Nicolas Gallagher & Jonathan Neal",
-      "source" "github.com/necolas/normalize.css",
+      "source": "github.com/necolas/normalize.css",
       "license": "MIT",
       "website": "necolas.github.io/normalize.css/"
     },
-    
     {
       "title": "fontawesome.css",
       "who": "Fortawesome",
@@ -49,7 +44,6 @@
       "license": "MIT",
       "website": "fontawesome.com"
     },
-    
     {
       "title": "styles.css",
       "who": "Theo Robinson (me)",
@@ -58,17 +52,15 @@
       "website": "synergybest.dev"
     }
   ],
-  
   "webfonts": [
     {
       "title": "*",
       "who": "Fortawesome",
       "source": "github.com/FortAwesome/Font-Awesome/tree/master/webfonts",
       "license": "SIL OFL 1.1",
-      "website": "fontawesome.com
+      "website": "fontawesome.com"
     }
   ],
-  
   "icons": [
     {
       "title": "*",
@@ -78,7 +70,6 @@
       "website": "fontawesome.com"
     }
   ],
-  
   "html": [
     {
       "title": "*",
@@ -89,6 +80,3 @@
     }
   ]
 }
-  
-
-    
