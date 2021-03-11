@@ -1,7 +1,11 @@
 {
     "schedule": "daily",
     "ignoredFiles": [
-    	"webfonts/*",
+    	"*.woff2",
+        "*.woff",
+        "*.otf",
+        "*.tff",
+        "*.svg"
     ],
     "aggressiveCompression": "false"
 }
