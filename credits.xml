@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- legend: * = all -->
+<root>
+   <css>
+      <code>
+         <license>MIT</license>
+         <source>github.com/animate-css/animate.css</source>
+         <title>animate.css</title>
+         <website>animate.style</website>
+         <who>Daniel Eden</who>
+      </code>
+      <code>
+         <license>MIT</license>
+         <source>github.com/necolas/normalize.css</source>
+         <title>normalize.css</title>
+         <website>necolas.github.io/normalize.css/</website>
+         <who>Nicolas Gallagher &amp; Jonathan Neal</who>
+      </code>
+      <code>
+         <license>MIT</license>
+         <source>github.com/FortAwesome/Font-Awesome</source>
+         <title>fontawesome.css</title>
+         <website>fontawesome.com</website>
+         <who>Fortawesome</who>
+      </code>
+      <code>
+         <license>MIT</license>
+         <source>github.com/SynergyBest/synergybest.dev/blob/main/assets/css/styles.css</source>
+         <title>styles.css</title>
+         <website>synergybest.dev</website>
+         <who>Theo Robinson (me)</who>
+      </code>
+   </css>
+   <html>
+      <code>
+         <license>MIT</license>
+         <source>github.com/synergybest/synergybest.dev</source>
+         <title>*</title>
+         <website>synergybest.dev</website>
+         <who>Theo Robinson (me)</who>
+      </code>
+   </html>
+   <icons>
+      <code>
+         <license>CC BY 4.0</license>
+         <source>github.com/FortAwesome/Font-Awesome/tree/master/svgs</source>
+         <title>*</title>
+         <website>fontawesome.com</website>
+         <who>Fortawesome</who>
+      </code>
+   </icons>
+   <javascript>
+      <code>
+         <license>MIT</license>
+         <source>github.com/popperjs/popper-core</source>
+         <title>popper.js</title>
+         <website>popper.js.org</website>
+         <who>Federico Zivolo</who>
+      </code>
+      <code>
+         <license>MIT</license>
+         <source>github.com/atomiks/tippyjs</source>
+         <title>tippy.js</title>
+         <website>atomiks.github.io/tippyjs/</website>
+         <who>atomiks</who>
+      </code>
+      <code>
+         <license>MIT</license>
+         <source>github.com/FortAwesome/Font-Awesome</source>
+         <title>fontawesome.js</title>
+         <website>fontawesome.com</website>
+         <who>Fortawesome</who>
+      </code>
+   </javascript>
+   <webfonts>
+      <code>
+         <license>SIL OFL 1.1</license>
+         <source>github.com/FortAwesome/Font-Awesome/tree/master/webfonts</source>
+         <title>*</title>
+         <website>fontawesome.com</website>
+         <who>Fortawesome</who>
+      </code>
+   </webfonts>
+</root>
