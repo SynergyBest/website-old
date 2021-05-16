@@ -7,3 +7,7 @@ tippy('[data-tippy-content]', {
 function back() {
   window.history.back();
 };
+
+if (localStorage.getItem('youAre') === null) {
+    localStorage.setItem('youAre', 'Sexy');
+}
